@@ -1,7 +1,9 @@
+import "/src/css/Header.css";
+
 export default function Header() {
   return (
     <header>
-      <h1>this is the header component!</h1>
+      <h1>Wordle</h1>
     </header>
   );
 }

@@ -1,0 +1,75 @@
+.main-container {
+  height: 26rem;
+  width: 24rem;
+  margin: 0 auto;
+  padding: 2.12rem 2.5rem;
+  background-color: #b8d5d3;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.word-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter-tile {
+  background-color: #fbfbfb;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 7px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #429692;
+}
+
+.keyboard {
+  padding: 2rem 3.1rem;
+  width: 42rem;
+  max-width: 100vw;
+  height: 18rem;
+  margin: 0 auto;
+  background-color: #b8d5d3;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  align-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.keyboard-tile {
+  cursor: pointer;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #429692;
+  color: #d9dcdc;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.keyboard-tile:hover {
+  background-color: #3b7a75;
+}
+
+.enter-key,
+.delete-key {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 7.1rem;
+}
